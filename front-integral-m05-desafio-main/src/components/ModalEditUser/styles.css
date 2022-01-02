@@ -1,0 +1,116 @@
+
+.cadeditUser{
+display: flex;
+flex-direction: column;
+width: 100%;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+}
+.modal{
+display: flex;
+flex-direction: column;
+width: 491px;
+background: #FFFFFF;
+border-radius: 30px;
+text-align: justify;
+padding: 20px 50px;
+}
+.cadHead{
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.close{
+    text-align: end;
+}
+.containerModalEdit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+    z-index: 2;
+}
+.cad > input{
+    all: unset;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 20px;
+}
+.cpfTell{
+    display: flex;
+    gap: 12px;
+}
+
+.cpfTell input{
+    width: 180px;
+}
+.cadeditUser label{
+    margin-bottom: 5px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    color: black;
+}
+.h1Edituser{
+    color: black;
+    margin-bottom: 27px;
+}
+input::placeholder{
+    font-family: Inter;
+    font-size: 1.4rem;
+}
+.password{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    margin-bottom: 20px;
+    padding: 10px 20px 10px 0px;
+}
+
+.cadeditUser input{
+    all: unset;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    width: 100%;
+    color: black;
+}
+.password img{
+    width: 20px;
+}
+#senha{
+    height: 100%;
+    width: 100%;
+    color: black;
+
+}
+#senhaC{
+    height: 100%;
+    width: 100%;
+    color: black;
+
+}

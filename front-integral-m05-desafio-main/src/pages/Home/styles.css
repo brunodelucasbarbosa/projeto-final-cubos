@@ -1,0 +1,38 @@
+.ContainerHome{
+    display: flex;
+}
+.cardTotais{
+    display: flex; 
+}
+.cardsectionBig{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 35px;
+}
+.cardsection{
+    display: flex;
+}
+.contHome{
+    margin-left: 100px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .cardTotais {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .cardsection {
+    display: block;
+  }
+  .cardsectionBig {
+    display: block;
+  }
+}

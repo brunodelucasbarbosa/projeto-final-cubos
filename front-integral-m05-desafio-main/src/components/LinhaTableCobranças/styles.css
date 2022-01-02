@@ -1,0 +1,62 @@
+.editDelet{
+    display: flex;
+    justify-content: end;
+    gap: 17px;
+    width: 140px;
+    font-size: 1.2rem;
+}
+
+.Linhacobrança{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 1px solid #eaebf3;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.ColunCob{
+    list-style: none;   
+    min-width: 160px;
+    max-width: 160px;
+    word-wrap: break-word;
+}
+.descricaoCob{
+    min-width: 170px;
+    max-width: 170px;
+    overflow: hidden;
+}
+.editeDelet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#Paga, #Pendente, #Vencida {
+  font-family: Nunito;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 19px;
+  background: #EEF6F6;
+  border-radius: 8px;
+  padding: 5px 15px;
+}
+
+#Paga {
+  color: #1FA7AF;
+  background: #EEF6F6;
+}
+
+#Pendente {
+  color: #C5A605;
+  background: #FCF6DC;
+}
+
+#Vencida {
+  color: #971D1D;
+  background: #FFEFEF;
+}

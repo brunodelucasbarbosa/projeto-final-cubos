@@ -1,0 +1,70 @@
+.containerheaderHome{
+    height: 90px;
+    width: 89vw;
+}
+
+.headerHome{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    margin-left:  32px;
+    width: 95%;
+    border-bottom: 1px solid #ACD9C5;
+    margin-top: 30px;
+}
+
+.headerUsuario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    color: #0E8750;
+    padding: 0px 180px;
+}
+
+.h3rUsuario{
+    padding: 8px;
+    font-weight: 600;
+    line-height: 30px;
+    background: #DEDEE9;
+    border-radius: 100%;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+.h1Header{
+    font-size: 2.6rem;
+    color: #343447;
+    margin-left:  38px;
+    font-weight: 600;
+}
+
+.h1cobCli{
+    font-size: 1.6rem;
+    margin-top: 30px;
+    padding: 40px;
+    color:  #0E8750;
+}
+
+.modalConfigurar{
+    position: relative;
+}
+.headerDetClient{
+    position: relative;
+    min-width: 20%;
+}
+.headerDetClient p{
+    position: absolute;
+    bottom: 40px;
+    left: 120px;
+}
+
+.nameHeader{
+  max-width: 150px;
+  white-space: nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+}

@@ -1,0 +1,9 @@
+.sectionLinhaBig{
+    width: 55.6rem;
+}
+.pLineBig{
+    min-width: 130px;
+    max-width: 110px;
+    text-align: center;
+    word-wrap: break-word;
+}

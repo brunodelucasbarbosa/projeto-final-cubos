@@ -1,0 +1,22 @@
+.containerCobVencidas{
+    margin-left: -30px;
+}
+ .headerCobVencidas{
+    height: 60px;
+    width: 360px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+    border: 1px solid #EFF0F7;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 70px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.h1numVenc{
+    background: #FCF6DC;
+    color: #971D1D;
+}
+

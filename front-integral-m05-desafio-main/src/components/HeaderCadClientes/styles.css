@@ -1,0 +1,43 @@
+.headerHome{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    margin-left:  32px;
+    width: 87vw;
+    border-bottom: 1px solid #ACD9C5;
+    margin-top: 30px;
+}
+
+.containerheaderHome{
+    height: 90px;
+    width: 89vw;
+}
+.headerUsuario{
+    display: flex;
+    width: 85px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    color: #0E8750;
+    margin-right: 32px;
+}
+
+.h3rUsuario{
+    padding: 8px;
+    font-weight: 600;
+    line-height: 30px;
+    background: #DEDEE9;
+    border-radius: 100%;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+.h3Header{
+    font-size: 1.6rem;
+    margin-bottom: 7px;
+    color: #0E8750;
+    font-weight: 600;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}

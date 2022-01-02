@@ -1,0 +1,16 @@
+.containerCardPrevisto{
+    height: 110px;
+    min-width: 360px;
+    background: #FCF6DC;
+    border-radius: 30px;
+    flex: none;
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CardPrevisto{
+    display: flex;
+    width: 81%;
+    font-family: Montserrat;
+}

@@ -1,0 +1,10 @@
+.sectionLinhaUser{
+    width: 360px;
+}
+
+.pLine{
+    min-width: 100px;
+    max-width: 110px;
+    text-align: center;
+    word-wrap: break-word;
+}

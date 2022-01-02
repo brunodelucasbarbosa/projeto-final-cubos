@@ -1,0 +1,37 @@
+.containerCardConfig{
+    border-radius: 8px;
+    width: 120px;
+    margin-top: -15px;
+}
+.CardConfig{
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 120px;
+  height: 60px;
+  color: #747488;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 5px 5px 20px rgb(225, 225, 253);
+  z-index: 2;
+}
+.containerConf{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: -37px;
+    top: 50px;
+}
+
+.triangulo{
+    position: absolute;
+    right: 29px;
+    top: -23px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(195, 195, 252);
+    z-index: 1;
+    transform: rotate(45deg);
+}

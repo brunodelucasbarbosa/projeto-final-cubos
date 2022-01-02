@@ -1,0 +1,79 @@
+.tela-cadastro{
+    display: flex;
+    position: relative;
+    background-color: #F8F8F9;
+    min-height: 100vh;
+}
+.headerCadCli{
+    margin-left: 120px;
+}
+.containerSectionCadCliente{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    margin-left:  32px;
+    padding: 0px 100px 0px 50px;
+}
+.sectionCliente{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 110px;
+}
+.sectionCadCliente{
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#pesquisa{
+    all: unset;
+    box-sizing: border-box;
+}
+.cad{
+    width: auto;
+}
+.input-lupa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 5px 10px rgba(218, 1, 117, 0.07);
+    border-radius: 10px;
+    height: 39px;
+    padding: 8px;
+    margin-top: 15px;
+    width: 100%;
+    gap: 20px;
+    padding: 0px 15px 0px 15px;
+}
+.noneClienteFind {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 20rem; 
+    margin-left:  19rem;
+    width: 70vw;
+    background-color: #ffffff;
+    border-radius: 30px;
+  }
+  .noneClienteFind h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.8rem;
+    color: #F08889;
+    margin-bottom: 15px ;
+  }
+  .noneClienteFind h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 29px;
+    margin-bottom: 80px;
+    color: #9B9BB2;
+  }

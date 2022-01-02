@@ -1,0 +1,117 @@
+.cad{
+display: flex;
+flex-direction: column;
+font-style: normal;
+font-weight: 600;
+font-size: 1.3rem;
+}
+.modalCadCliente{
+display: flex;
+flex-direction: column;
+width: auto;
+height: auto;
+background: #FFFFFF;
+border-radius: 30px;
+text-align: justify;
+padding: 20px 50px;
+}
+
+.cadHead{
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.cadHeader{
+    display: flex;
+    gap: 23px;
+    align-items: center;
+}
+.close{
+    text-align: end;
+}
+.containerModalEdit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+    z-index: 2;
+}
+
+.cpfTell{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.cpfTell input{
+    width:100%;
+}
+.cad label{
+    margin-bottom: 5px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+}
+input::placeholder{
+    font-family: Inter;
+    font-size: 1.4rem;
+}
+.password{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    margin-bottom: 20px;
+    padding: 10px 20px 10px 0px;
+}
+
+.password input{
+    all: unset;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+}
+.password img{
+    width: 20px;
+}
+#senha{
+    height: 100%;
+    width: 100%;
+}
+#senhaC{
+    height: 100%;
+    width: 100%;
+}
+.btn{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+.tela_cadCli_direita_botao_cadCli {
+    font-family: Nunito;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #0E8750;
+    border-radius: 10px;
+    border: 1px solid #DEDEE9;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 6px 55px;
+    width: 50%;
+  }

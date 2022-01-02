@@ -1,0 +1,63 @@
+.tela_cadastro {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tela_cadastro_esquerda {
+  width: 50%;
+  height: 100vh;
+  background: #F0F0F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MuiStepLabel-labelContainer span {
+  font-size: 3rem;
+}
+
+svg {
+  font-size: 5rem!important;
+}
+
+.tela_cadastro_direita {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F8F8F9;
+}
+
+.tela_cadastro_direita_titulo {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 130%;
+  color: #343447;
+  margin-bottom: 5.8rem;
+}
+
+.nome_cadastro {
+  position: relative;
+  margin-bottom: 2.3rem;
+}
+
+@media (max-width: 768px) {
+  .tela_cadastro {
+    flex-direction: column;
+  }
+
+  .tela_cadastro_esquerda, .tela_cadastro_direita {
+    width: 100vw;
+  }
+}
+
+.teste {
+  width: 100vw;
+  height: 100vh;
+}

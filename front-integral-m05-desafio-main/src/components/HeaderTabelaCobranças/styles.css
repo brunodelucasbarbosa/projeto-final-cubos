@@ -1,0 +1,19 @@
+.headercobrança{
+    display: flex;
+    align-items: center;
+    width: 99.5%;
+    justify-content: space-between;
+    padding: 15px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.headercobrança li{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    min-width: 140px;
+    max-width: 140px;
+    word-wrap: break-word;
+}

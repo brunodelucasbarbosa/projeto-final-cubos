@@ -1,0 +1,24 @@
+
+.containerModalConfirm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+}
+.cardModalConfirm{
+    background-color: white;
+    height: 500px;
+    width: 600px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}

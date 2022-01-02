@@ -1,0 +1,75 @@
+
+.containerModalDelet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(145, 154, 150, 0.5);
+    backdrop-filter: blur(1px);
+}
+.cardModalDelet{
+    background-color: white;
+    height: 400px;
+    width: 600px;
+    border-radius: 30px;
+    display: flex;  
+    flex-direction: column;
+    padding: 30px 50px;
+    gap: 25px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.closeDescricao{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-size: 3.0rem;
+    margin-bottom:-35px ;
+}
+.elementosCardDel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+}
+.h3Carddelete{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #CC7800;
+    margin-bottom: 25px;
+}
+.btnCardDel{
+    display: flex;
+    justify-content: space-between;
+    width: 42%;
+}
+.btnDel{
+    all: unset;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    width: 95px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+}
+.btnNao{
+    background: #F2D6D0;
+    color: #AE1100;
+}
+.btnSim{
+    color: #034A2A;
+    background: #ACD9C5;
+}

@@ -1,0 +1,14 @@
+.senha_cadastro {
+  position: relative;
+}
+
+.icone_mostrar_senha {
+  width: 20px;
+  position: absolute;
+  left: 88%;
+  bottom: 18%;
+}
+
+.preencha-senha {
+  margin-left: 1rem;
+}

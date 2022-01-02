@@ -1,0 +1,40 @@
+.containersidebar{
+    background: #F0F0F5;
+    height: 100%;
+    max-width: 115px;
+    padding: 30px 20px;
+    position: fixed;
+}
+.containersidebar a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 40vh;
+    font-size: 1.6rem;
+}
+.sidebarHome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #343447;
+}
+
+.active{
+    border-right: 2px solid #DA0175;
+    width: 115px;
+}
+
+.active img {
+  border: none;
+  width: 60px;
+}
+
+.sidebar .active{
+    color: #DA0175;
+}
